@@ -5,7 +5,7 @@ const cohort = {
 }
 
 function getCohort() {
-  if(let name of )
+  
 
 }
 /**
