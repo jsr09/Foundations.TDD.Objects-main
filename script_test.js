@@ -18,7 +18,7 @@ function generateRandomNumberArray(low = -50, high = 50, n = 5) {
 }
 //#endregion Setup
 
-describe("getCohort", function () {
+describe.only("getCohort", function () {
   it("is a function", function () {
     expect(code.getCohort).to.be.a("function");
   });
