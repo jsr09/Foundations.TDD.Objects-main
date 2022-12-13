@@ -1,13 +1,19 @@
 /* Write your code here! */
 
-const cohort = {
-  
-}
 
-function getCohort() {
-  
+// `getCohort({cohort:number, name: string})` takes an object as a parameter and returns the cohort of that object.
+//want the value of cohort
 
-}
+function getCohort(cohort) {
+  //  if('name' in cohort){
+  //   return `${cohort.name}`;
+  //  } <------- this will give us value thats assigned to the key name
+  for(let number in cohort){
+    return cohort[number];
+   }
+   }
+
+
 /**
  * The code below exports your functions so they can be tested.
  * Notice that the names are currently commented out.
@@ -15,7 +21,7 @@ function getCohort() {
  */
 module.exports = {
   getCohort,
-  // increment,
+  increment,
   // findHerbivores,
   // findCarnivores,
   // merge,
